@@ -1,0 +1,49 @@
+:root {/* Variáveis globais de cores */
+    --cor-fundo: #01080e;
+    --cor-principal: #0b0d20;
+    --cor-secundaria: #212333;
+    --cor-destaque: #2bdefd;
+    --cor-texto: #d7f9ff;
+}
+body { /* Configura toda a página */
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: Arial, sans-serif;
+}
+.caixa-principal {  /* Caixa principal do jogo */
+    width: 90%;
+    max-width: 600px;
+    padding: 25px;
+    background-color: var(--cor-principal);
+    text-align: center;
+    border-radius: 10px;
+}
+h1 { /* Título */
+    color: var(--cor-destaque);
+}
+.caixa-alternativas { /* Área das alternativas */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button {  /* Botões criados pelo JavaScript */
+    padding: 12px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {  /* Efeito ao passar o mouse */
+    background-color: var(--cor-destaque);
+    color: var(--cor-fundo);
+}
+.resultado {  /* Resultado final */
+    margin-top: 20px;
+    line-height: 1.6;
+}

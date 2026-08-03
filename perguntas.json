@@ -1,0 +1,41 @@
+[
+    {
+        "enunciado": "Você encontra uma IA que cria textos e imagens. O que pensa?",
+        "alternativas": [
+            {
+                "texto": "Isso é assustador!",
+                "afirmacao": "Você demonstra preocupação com os riscos da inteligência artificial."
+            },
+            {
+                "texto": "Isso é maravilhoso!",
+                "afirmacao": "Você acredita nas possibilidades positivas da inteligência artificial."
+            }
+        ]
+    },
+    {
+        "enunciado": "Como a inteligência artificial deve ser utilizada nos estudos?",
+        "alternativas": [
+            {
+                "texto": "Para copiar todas as respostas.",
+                "afirmacao": "Você precisa utilizar a inteligência artificial com mais responsabilidade."
+            },
+            {
+                "texto": "Como apoio para aprender.",
+                "afirmacao": "Você utiliza a inteligência artificial como ferramenta de aprendizagem."
+            }
+        ]
+    },
+    {
+        "enunciado": "Quem deve tomar as decisões importantes?",
+        "alternativas": [
+            {
+                "texto": "Somente a inteligência artificial.",
+                "afirmacao": "Você confia bastante nas decisões tomadas pela tecnologia."
+            },
+            {
+                "texto": "As pessoas, com apoio da IA.",
+                "afirmacao": "Você considera importante manter a participação humana."
+            }
+        ]
+    }
+]
